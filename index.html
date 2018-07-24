@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>friends</title>
 </head>
 <body>
 
-<header class="header">
+<header class="top-header">
     <div class="header__top">
         <div class="header__column">
             <!--plane icon-->
@@ -39,16 +40,11 @@
                 <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
             </span>
 
-            <div class="header__battery">
+            <span class="header__battery">
                 66%
                 <!--battery icon-->
-
-                <span class="header__icon">
-                    <i class="fa fa-battery-full" aria-hidden="true"></i>
-                </span>
-
-
-            </div>
+                <i class="fa fa-battery-full" aria-hidden="true"></i>
+            </span>
         </div>
     </div>
     <div class="header__buttom">
@@ -78,11 +74,37 @@
             <h6 class="friends__section-title">My Profile</h6>
         </header>
         <div class="friends__section-rows">
+            <div class="friends__section-row with-tagline">
+                <div class="friends__section-column">
+                    <a href="profile.html" class="friends__section-link" >
+                        <img src="images/avatar.jpg" alt="">
+                        Nicolas
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="friends__section-rows">
             <div class="friends__section-row">
                 <div class="friends__section-column">
-                    <a href="profile.html">
-                        <img src="" alt="">
-                        <span class="friends__section-name">Friedns's Name Display</span>
+                    <a href="profile.html" class="friends__section-link">
+                        <img src="images/avatar.jpg" alt="">
+                        Friend's Name Display
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="friends__section">
+        <header class="friends__section-header">
+            <h6 class="friends__section-title">Friends</h6>
+        </header>
+        <div class="friends__section-rows">
+            <div class="friends__section-row">
+                <div class="friends__section-column">
+                    <a href="profile.html" class="friends__section-link">
+                        <img src="images/avatar.jpg" alt="">
+                        Friend's Name Display
                     </a>
                 </div>
                 <span class="friends__section-tagline">
@@ -90,12 +112,6 @@
                 </span>
             </div>
         </div>
-
-    </section>
-    <section class="friends__section">
-        <header class="friends__section-header">
-            <h6 class="friends__section-title"></h6>
-        </header>
 
     </section>
 

@@ -1,0 +1,53 @@
+
+.find{
+  &__options{
+    background-color: #eee;
+    display: flex;
+    justify-content:space-between;
+  }
+  &__option{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+
+    width: 25%;
+    padding: 25px 5px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &__option i{
+    font-size: 30px;
+    color: #523737;
+  }
+  &__option-title{
+    text-align: center;
+
+    margin-top: 10px;
+    font-size: 11px;
+    color: #474747;
+  }
+  &__recommended{
+
+  }
+  &__recommended header{
+    border-bottom: 1px solid #ebebeb;
+    padding: 5px 10px;
+  }
+  &__recommended-title{
+    font-size: 12px;
+    color: #b4b4b4;
+    text-transform: capitalize;
+  }
+  &__recommended-none{
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    color: #b4b4b4;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+
+}

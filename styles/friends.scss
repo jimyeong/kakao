@@ -1,0 +1,53 @@
+.friends{
+  &__section{}
+  &__section-header{
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #b4b4b4;
+  }
+  &__section-rows{
+
+  }
+  &__section-row{
+    padding: 10px 15px;
+    font-size: 14px;
+
+
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  &__section-row{
+    &.with-tagline{
+      justify-content:space-between;
+
+    }
+  }
+
+  &__section-row img{
+    width: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    margin-right: 10px;
+  }
+  &__section-link{
+    display: flex;
+    align-items: center;
+  }
+  &__section-tagline{
+    font-size: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #717171;
+  }
+
+
+
+}
