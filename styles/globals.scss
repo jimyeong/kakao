@@ -6,8 +6,12 @@ body{
   font-family: 'Open Sans', sans-serif;
   padding-top: 60px;
   padding-bottom: 66px;
+}
 
-
+main{
+  -webkit-animation: 0.7s bodyPopIn ease-in-out;
+  -o-animation: 0.7s bodyPopIn ease-in-out;
+  animation: 0.7s bodyPopIn ease-in-out;
 }
 input[type="text"]{
   padding: 0 5px;
@@ -20,4 +24,26 @@ input[type="text"]{
 
 input[type="text"]:focus{
   outline:none;
+}
+
+
+@keyframes bodyPopIn {
+  from{
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+
+  }
+  
 }
