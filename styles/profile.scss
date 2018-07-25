@@ -1,0 +1,85 @@
+.top-header--transparent{
+  background-color: transparent;
+}
+.profile{
+  &__header{
+    height: 80vh;
+    background:  url(../images/pattern.jpg) 50% 50% / cover no-repeat;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items: center;
+  }
+  &__header-container{
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+  }
+  &__header-container img{
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  &__header-title{
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  &__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+  }
+  &__input{
+    padding: 5px;
+  }
+  &__input:focus{
+    outline:none;
+  }
+  &__actions{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  &__action{
+    margin-top: 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .profile__action + .profile__action {
+    margin-left: 15px;
+  }
+  &__action-circle{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  &__action-circle i{
+    font-size: 24px;
+    color: #523737;
+  }
+  &__action-title{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+}
+
+
+

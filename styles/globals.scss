@@ -9,3 +9,15 @@ body{
 
 
 }
+input[type="text"]{
+  padding: 0 5px;
+  margin: 0;
+  border: none;
+  line-height: 1.6;
+  font-size: 17px;
+  padding-right: 80px;
+}
+
+input[type="text"]:focus{
+  outline:none;
+}

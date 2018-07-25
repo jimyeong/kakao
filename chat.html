@@ -11,9 +11,9 @@
     <title>Chat</title>
 </head>
 
-<body>
+<body class="body-chat">
 
-<header class="top-header">
+<header class="top-header chat-header">
     <div class="header__top">
         <div class="header__column">
             <!--plane icon-->
@@ -89,17 +89,20 @@
             <span class="chat__message-body">
                 and this is an answer
             </span>
-            <span class="chat__message-time">19:55</span>
         </div>
+        <span class="chat__message-time">19:55</span>
     </div>
 </main>
 <div class="type-message">
-    <i class="fa fa-plus fa-2x"></i>
+    <i class="fa fa-plus fa-lg btn-plus"></i>
     <div class="type-message__input">
         <input type="text">
-        <i class="fa fa-smile-o"></i>
-        <span class="record-message">
-            <i class="fa fa-microphone"></i>
+        <span class="type-message__etc-btn">
+            <i class="fa fa-smile-o"></i>
+            <button>
+                <i class="fa fa-microphone"></i>
+            </button>
+
         </span>
     </div>
 </div>
